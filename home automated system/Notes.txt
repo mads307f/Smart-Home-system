@@ -1,0 +1,18 @@
+Display SSID1306: https://esp32io.com/tutorials/esp32-oled#google_vignette
+
+tjæk:
+time https://www.theelectronics.co.in/2022/04/how-to-use-internal-rtc-of-esp32.html
+timer på knap https://forum.arduino.cc/t/how-do-i-code-a-timer-into-an-if-else-statement/1008827/3
+mesh netværk https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/ 
+jord fugtighed https://esp32io.com/tutorials/esp32-soil-moisture-sensor#google_vignette 
+
+butten display:
+if (!digitalRead(BUTTON_B)){
+  display.setTextSize(1), display.setCursor(0,32), display.print("B");
+}
+else if (!digitalRead(BUTTON_A)){
+  display.setTextSize(1), display.setCursor(0,32), display.print("A");
+}
+else if (!digitalRead(BUTTON_C)){
+  display.setTextSize(1), display.setCursor(0,32), display.print("C");
+}
